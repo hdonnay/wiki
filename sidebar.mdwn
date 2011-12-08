@@ -1,1 +1,2 @@
 ###[[notes]]
+[[!map pages="/tag/notes/*"]]
