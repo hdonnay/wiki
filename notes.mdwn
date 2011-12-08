@@ -1,2 +1,2 @@
 This is a directory for class notes.
-[[!calendar  ]]
+[[!map pages="notes/* and ! notes/*/*"]]
