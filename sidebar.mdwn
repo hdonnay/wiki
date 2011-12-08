@@ -1,2 +1,2 @@
 ###[[notes]]
-[[!map pages="/tag/notes/* and !/tag/notes/*/*"]]
+[[!map pages="tag/notes/* and !tag/notes/*/*"]]
