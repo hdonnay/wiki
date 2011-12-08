@@ -8,3 +8,4 @@ Matrix is loosely (read:  not at all) based on this.
  * *precession of sumulacra* -- the images precede the reality
 
 
+[[!tag notes/3001]]
