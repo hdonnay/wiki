@@ -1,0 +1,14 @@
+<div class="notebox">
+    <em>Git mirrors</em>
+    <ul>
+    <TMPL_IF NAME="github">
+        <a href="https://github.com/<TMPL_VAR github ESCAPE=URL>"><li>github</li></a>
+    </TMPL_IF>
+    <TMPL_IF NAME="bitbucket">
+        <a href="https://bitbucket.org/<TMPL_VAR github ESCAPE=URL>"><li>bitbucket</li></a>
+    </TMPL_IF>
+    <TMPL_IF NAME="github">
+        <a href="http://git.hdonnay.net/?p=<TMPL_VAR github ESCAPE=URL>.git"><li>git.hdonnay.net</li></a>
+    </TMPL_IF>
+    </ul>
+</div>
