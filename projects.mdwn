@@ -1,0 +1,5 @@
+Projects
+========
+---
+
+[[!map pages="projects/* and ! projects/*/*" show=title,description]]
