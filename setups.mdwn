@@ -3,3 +3,6 @@ setups
 - - -
 
 Documentation of the way some things are set up.
+- - -
+
+[[!map pages="setups/* and ! setups/*/*"]]
