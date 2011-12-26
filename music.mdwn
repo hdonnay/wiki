@@ -1,5 +1,0 @@
-Here's some music.
-
----
-
-[[!map pages="music/* and ! music/*/*"]]
