@@ -1,5 +1,8 @@
-Welcome to the new wiki.
+Welcome to the wiki.
 ========================
+---
+[[!fortune  ]]
+---
 
 Raise some hell.
 
@@ -7,4 +10,4 @@ All wikis are supposed to have a [[SandBox]], so this one does too.
 
 ----
 
-This wiki is powered by [[ikiwiki]].
+This wiki is powered by [[ikiwiki]]. Lost? [[sitemap]]
