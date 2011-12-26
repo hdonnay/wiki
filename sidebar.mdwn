@@ -1,2 +1,6 @@
 ###[[notes]]
 [[!map pages="tag/notes/* and !tag/notes/*/*"]]
+
+###[[setups]]
+
+###[projects]]
