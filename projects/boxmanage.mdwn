@@ -1,4 +1,4 @@
-[[!template id=gitlinks.tmpl github="" bitbucket="" hdonnay=""]]
+[[!template id=gitlinks.tmpl github="" bitbucket="" hdonnay="wiki"]]
 
 boxmanage is to be an automated server management helper.
 
