@@ -1,6 +1,5 @@
 gitolite
 --------
-
 gitolite was installed via apt:
 
     % sudo aptitude install gitolite
@@ -19,7 +18,6 @@ User repositories are allowed under `usr/$name`.
 
 gitweb
 ------
-
 gitweb was installed via apt:
 
     % sudo aptitude install gitweb
@@ -34,7 +32,6 @@ This allows for user repositories to be exposed via gitweb with out cluttering t
 
 git-daemon
 ----------
-
 git-daemon was installed via apt:
 
     % sudo aptitude install git-daemon-run
@@ -44,3 +41,15 @@ Additionally, the following line was added to every repo in gitolite.conf to ena
     R   =   daemon
 
  * **Still needs a hold punched in the firewall**
+
+http export
+-----------
+Handled with this config stanza:
+
+    Alias /r /var/lib/gitolite/repositories
+    <Location /r>
+        Options -Indexes
+        Order allow,deny
+        Allow from all
+    </Location>
+
