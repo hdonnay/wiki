@@ -1,1 +1,5 @@
+Month
+----
+---
 [[!map pages="notes/2012/* and ! notes/2012/*/*"]]
+[[!edittemplate silent=yes template="day" match="notes/2012/*"]]
