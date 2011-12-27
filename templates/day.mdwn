@@ -1,5 +1,5 @@
-Day
----
+Classes
+-------
 ---
 [[!map pages="<TMPL_VAR name>/* and ! <TMPL_VAR name>/*/*"]]
 [[!edittemplate silent=yes template="class" match="<TMPL_VAR name>/*"]]

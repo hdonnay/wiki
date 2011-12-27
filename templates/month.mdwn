@@ -1,5 +1,5 @@
-Month
------
+Day
+---
 ---
 [[!map pages="<TMPL_VAR name>/* and ! <TMPL_VAR name>/*/*"]]
 [[!edittemplate silent=yes template="day" match="<TMPL_VAR name>/*"]]
