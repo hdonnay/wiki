@@ -1,4 +1,4 @@
 All the Stuff, and More
 =======================
 ---
-[[!map  pages="* and !*/Discussion and !*ikiwiki* and !archives/* and !favicon.ico and !*smileys* and !*wikiicons* and !*templates*" show=title]]
+[[!map  pages="* and !*/Discussion and !*ikiwiki* and !archives/* and !favicon.ico and !*smileys* and !*wikiicons* and !*templates* and !*.css" show=title]]
