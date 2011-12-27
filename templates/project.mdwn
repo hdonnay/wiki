@@ -1,0 +1,6 @@
+<TMPL_VAR NAME>
+===
+---
+[[!template id=gitlinks.tmpl github="" bitbucket="" hdonnay=""]]
+
+Description goes here.
