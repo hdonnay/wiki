@@ -1,0 +1,3 @@
+[[!template id=gitlinks.tmpl github="hdonnay/wiki" bitbucket="hdonnay/wiki" hdonnay="wiki"]]
+
+My ikiwiki-powered wiki.
