@@ -1,5 +1,5 @@
 Month
 -----
 ---
-[[!map pages="notes/2012/12/* and ! notes/2012/12/*/*"]]
-[[!edittemplate silent=yes template="day" match="notes/*/* and ! notes/*/*/*"]]
+[[!map pages="<TMPL_VAR name>/* and ! <TMPL_VAR name>/*/*"]]
+[[!edittemplate silent=yes template="day" match="<TMPL_VAR name>/*"]]
