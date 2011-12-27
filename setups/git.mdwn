@@ -40,7 +40,14 @@ Additionally, the following line was added to every repo in gitolite.conf to ena
 
     R   =   daemon
 
- * **Still needs a hold punched in the firewall**
+The stupid runsrv config file didn't work by default. Here's what it ended up being:
+
+    hank@kuro:~ % sudo cat /etc/sv/git-daemon/run 
+    #!/bin/sh
+    exec 2>&1
+    echo 'git-daemon starting.'
+    exec chpst -ugitdaemon:gitolite \
+      "$(git --exec-path)"/git-daemon --verbose --reuseaddr --base-path=/var/lib/gitolite/repositories
 
 http export
 -----------
