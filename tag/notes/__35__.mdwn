@@ -1,4 +1,0 @@
-[[!meta title="pages tagged __35__"]]
-
-[[!inline pages="tagged(notes/__35__)" actions="no" archive="yes"
-feedshow=10]]
