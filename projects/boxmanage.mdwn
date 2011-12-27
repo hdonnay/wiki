@@ -16,3 +16,8 @@ script ideas
    * user management
    * key management
    * aptitude interface
+
+Implementation
+ --------------
+ ---
+Use Net::IMAP::Simple to retrieve email, then parse and call associated scripts.
