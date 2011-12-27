@@ -1,6 +1,3 @@
-kirby
-===
----
 [[!template id=gitlinks.tmpl github="hdonnay/kirby" bitbucket="hdonnay/kirby" hdonnay="kirby"]]
 
 Usenet Comics downloader. Based on Mojolicious.
