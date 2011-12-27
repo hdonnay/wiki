@@ -1,1 +1,1 @@
-[[!map pages="users/* and ! users/*/*"]]
+[[!map pages="user/* and ! user/*/*"]]
