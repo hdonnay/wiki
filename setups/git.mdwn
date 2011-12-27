@@ -26,6 +26,12 @@ gitweb was installed via apt:
 
 The actual html/js/css files are stored in `/srv/git` and it is pointed to `/var/lib/gitolite/repositories` via `/etc/gitweb.conf`
 
+Apache is configured to point to different gitweb configs, `/etc/gitweb.conf` for `/` and `/etc/gitweb-usr.conf` for `/usr.`
+This allows for user repositories to be exposed via gitweb with out cluttering the 'important' repos.
+
+ * [gitweb][http://git.hdonnay.net]
+ * [user gitweb][http://git.hdonnay.net/usr]
+
 git-daemon
 ----------
 
