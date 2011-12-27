@@ -1,5 +1,5 @@
 Projects
 ========
 ---
-[[!edittemplate silent=yes template="project.mdwn" match="projects/*" ]]
+[[!edittemplate silent=yes template="project" match="projects/*" ]]
 [[!map pages="projects/* and ! projects/*/*" show=title,description]]
