@@ -1,6 +1,3 @@
-hmln
-===
----
 [[!template id=gitlinks.tmpl github="hdonnay/hmln" bitbucket="hdonnay/hmln" hdonnay="hmln"]]
 
 hmln is a utility to keep dotfiles tidy across machines.
