@@ -1,4 +1,5 @@
 Here be planning and notes, arrr
+
 ---
 [[!edittemplate silent=yes template="project" match="projects/*" ]]
 [[!map pages="projects/* and ! projects/*/*" show=title,description]]
