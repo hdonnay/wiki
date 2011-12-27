@@ -1,7 +1,3 @@
-setups
-======
-- - -
-
 Documentation of the way some things are set up.
 - - -
 
