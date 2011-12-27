@@ -1,0 +1,18 @@
+[[!template id=gitlinks.tmpl github="" bitbucket="" hdonnay=""]]
+
+boxmanage is to be an automated server management helper.
+
+It should be a collection of scripts written in perl, and invoked via cron (perhaps a daemon process, `managed`?)
+Scripts should be able to be invoked via sending an email. A dispatcher process should run from cron and call relevant scripts accordingly.
+
+the scripts should go in `/sbin/manage/` and system-wide configs in `/etc/manage`.
+user-level configs should go in `~/.manage`.
+
+script ideas
+------------
+---
+ * automatic adding of shell users/pubkeys to gitolite
+ * email-based jobs:
+   * user management
+   * key management
+   * aptitude interface
