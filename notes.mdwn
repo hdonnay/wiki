@@ -2,6 +2,7 @@ This is a directory for class notes.
 
 The structure is year/month/day/class
 
+Year
 ----
-
+---
 [[!map pages="notes/* and ! notes/*/*"]]
