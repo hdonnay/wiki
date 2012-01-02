@@ -1,0 +1,11 @@
+ikiwiki
+-------
+---
+
+the repository needed to go though gitolite. The remote should be set to something like:
+
+    gitolite@localhost:wiki.git
+
+rather than
+
+    ~/respositories/wiki.git
