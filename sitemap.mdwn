@@ -1,3 +1,6 @@
+[[!if test="enabled(meta)" then="""
+[[!meta title="SiteMap"]]
+"""]]
 All the Stuff, and More
 =======================
 ---
