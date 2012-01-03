@@ -1,0 +1,7 @@
+gonna get un-fat
+----------------
+- - -
+keeping track of weight via [this.](https://www.fourmilab.ch/cgi-bin/HackDiet)
+
+- - -
+[[!map pages="diet/* and ! diet/*/*"]]
