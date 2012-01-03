@@ -1,1 +1,3 @@
 [[!map pages="archives/* and ! archives/*/*"]]
+---
+[[!calendar type=year year=2011 pages="*"]] [[!calendar type=year year=2012 pages="*"]]
