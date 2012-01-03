@@ -1,3 +1,6 @@
+[[!if test="enabled(meta)" then="""
+[[!meta title="BrokenLinks"]]
+"""]]
 List of broken links:
 ---------------------
 [[!brokenlinks  pages="*"]]
