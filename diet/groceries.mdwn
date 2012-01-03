@@ -6,6 +6,7 @@ on-hand
  * spaghetti noodles
  * Tomato sauce
  * misc spices
+ * garlic
 
 to buy
 ------
