@@ -3,5 +3,7 @@ gonna get un-fat
 - - -
 keeping track of weight via [this.](https://www.fourmilab.ch/cgi-bin/HackDiet)
 
+Keeping track of things in a notebook, and then transcribing them here
+when time permits.
 - - -
 [[!map pages="diet/* and ! diet/*/* and ! diet/discussion"]]
