@@ -22,3 +22,5 @@ Food Journal
  * Pint of Surly bender
  * Med coffee w/ sugar, cream
  * cookie
+ * pork burrito (qdoba)
+ * water
