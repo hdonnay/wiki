@@ -1,0 +1,44 @@
+Distro Wishlist
+---------------
+
+ * Modularity of system config
+ * No re-packaging of things, e.g. use pip, cabal, ruby gems, cpanmin
+   whenever possible.
+ * static-compiled base system
+ * use of git to maintain package manager
+ * system communication
+
+###1. System Config
+
+The should be a plain text file recording all installed packages,
+including those installed via a third-party package manager.
+
+ * Diffs of changes in `/etc`?
+
+###2. Integration of third-party package management
+
+Installation of a language/environment automatically pulls in that
+package manager and hooks it into the system package manager, providing
+those packages though the standard interface.
+
+###3. Compile /sbin, /bin statically
+
+Makes upgrades easier?
+
+May cost more disk space.
+
+###4. Git-based package manager
+
+I like git.
+
+Makes upstream contributions of packages easier? 
+
+Hooks would make building a SQLite database of packages, notification
+of upgrades trivial.
+
+###5. Communication
+
+Should have a local-only email server by default, used to send messages
+to the user.
+
+use Oak to parse log files by default? Use Oak to monitor installs?
