@@ -1,0 +1,21 @@
+Windows
+-------
+- - -
+Windows is backed up with the build-in backup tool, to `KURO\\backups\windows`.
+
+Linux
+-----
+- - -
+Linux installs are backed up by rsnapshot on kuro.
+
+To use, copy `/backups/backup.pub` into `/root/.ssh/authorized_keys` on a new machine, and then add a stanza to `/etc/rsnapshot.conf` like this:
+
+    # ao
+    backup ao:/home/ ao/
+    backup ao:/etc/ ao/
+    backup ao:/usr/local/ ao/
+
+OSX
+---
+- - -
+Not currently backed up
