@@ -19,3 +19,5 @@ OSX
 ---
 - - -
 Not currently backed up
+
+ * **TODO:** put midori under rsnapshot backup
