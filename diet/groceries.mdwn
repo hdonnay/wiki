@@ -2,8 +2,7 @@ on-hand
 -------
 - - -
  * 6lbs ground beef
- * 2 (?) parted chickens
- * milk
+ * 2? parted chickens
  * spaghetti noodles
  * Tomato sauce
  * misc spices
@@ -15,6 +14,7 @@ on-hand
 to buy
 ------
 - - -
+ * milk -- keeps getting drunk
  * Miso Soup
    * dashi
    * Tofu
