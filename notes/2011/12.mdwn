@@ -1,0 +1,4 @@
+Day
+---
+---
+[[!map pages="notes/2011/12/* and ! notes/2011/12/*/*"]]
