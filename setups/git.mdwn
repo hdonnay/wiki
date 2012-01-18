@@ -63,10 +63,12 @@ http export
 -----------
 Handled with this config stanza:
 
-    Alias /r /var/lib/gitolite/repositories
-    <Location /r>
+    Alias /clone /var/lib/gitolite/repositories
+    <Location /clone>
         Options -Indexes
         Order allow,deny
         Allow from all
     </Location>
 
+This doesn't allow for "smart" http cloning, but `git-http-backend` was
+being a jackass.
