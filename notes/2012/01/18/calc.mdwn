@@ -3,11 +3,6 @@
 [[!toc startlevel=2]]
 [[!tag notes/1272]]
 
-##Math Test
-Note: backslashes need to be escaped in the markdown.
+##Integration examples
 
-\begin{aligned}
-\dot{x} & = \sigma(y-x) \\\\
-\dot{y} & = \rho x - y - xz \\\\
-\dot{z} & = -\beta z + xy
-\end{aligned}
+Find \int x \cos x dx:
