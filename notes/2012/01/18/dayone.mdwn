@@ -4,6 +4,7 @@
 4. Example 1
 5. Example 2
 6. Administrative
+
 [[!tag notes/2011]]
 ---
 
@@ -27,7 +28,7 @@ Instructor: Phil Barry
 A system of logic is consisten if there is at least one assignment of
 truth values to the expressions that makes all expressions true.
 
-* #12, p23
+* \#12, p23
 * Truth Trees!
 
 ##Cohen-Sutherland
