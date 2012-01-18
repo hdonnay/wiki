@@ -1,3 +1,5 @@
+[[!toc levels=1 startlevel=2]]
+
 gitolite
 --------
 gitolite was installed via apt:
@@ -34,7 +36,7 @@ This allows for user repositories to be exposed via gitweb with out cluttering t
  * [gitweb](http://git.hdonnay.net)
  * [user gitweb](http://git.hdonnay.net/usr)
 
-##The main repo page has since changed to cgit.
+**The main repo page has since changed to cgit.**
 
 Will write this up when I get a chance.
 
