@@ -2,7 +2,7 @@
 
 [[!toc startlevel=2]]
 [[!tag notes/1272]]
-[[!template math]]
+[[!template id=math.tmpl]]
 
 ##Math Test
 
