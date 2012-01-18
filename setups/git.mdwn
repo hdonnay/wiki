@@ -11,8 +11,12 @@ Some repos are mirrored out by using a post-receive hook like so:
 
     gitolite@kuro:~&#036; cat repositories/hmln.git/hooks/post-receive 
     #!/bin/sh
-    git push --mirror git@github.com:hdonnay/hmln.git
-    git push --mirror git@bitbucket.org:hdonnay/hmln.git
+    git push --mirror git@github.com:hdonnay/hmln.git &
+    git push --mirror git@bitbucket.org:hdonnay/hmln.git &
+
+It's better to fork the mirroring commands because waiting for a slow
+remote sucks. Plus, this way the mirroring is sort-of not-quite
+parallel.
 
 User repositories are allowed under `usr/$name`.
 
