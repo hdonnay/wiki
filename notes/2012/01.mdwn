@@ -1,1 +1,4 @@
+Day
+---
+---
 [[!map pages="notes/2012/01/* and ! notes/2012/01/*/*"]]
