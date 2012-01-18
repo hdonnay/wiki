@@ -1,0 +1,30 @@
+Modifications to seraph:
+========================
+
+[[!toc ]]
+
+- - -
+
+Haskell
+-------
+- - -
+
+Installed ghc-7.0.4 and haskell-platform-2001.4.0.0.
+
+Then installed xmonad-0.10, xmonad-contrib-0.10, and xmobar-0.14
+globally.
+
+pandoc is also installed for some vim scripts.
+
+Newsbeuter
+----------
+- - -
+
+Installed newsbeuter-2.4 from source.
+
+The only dependency not packaged on SL6 is stfl, which needs to be built
+and installed like so:
+
+    % make
+    % sudo make install prefix=/usr
+    % sudo ln -s /usr/lib64/libstfl.so.0 /usr/lib/libstfl.so.0.22
