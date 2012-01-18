@@ -3,8 +3,6 @@ Modifications to seraph:
 
 [[!toc levels=1 startlevel=2 ]]
 
-- - -
-
 Haskell
 -------
 - - -
