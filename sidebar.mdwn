@@ -1,8 +1,8 @@
-###[[notes]]
+*[[notes]]*
 [[!map pages="tag/notes/* and !tag/notes/*/* and !tag/notes/3001"]]
 
-###[[setups]]
+*[[setups]]*
 
-###[[projects]]
+*[[projects]]*
 
-###[[diet]]
+*[[diet]]*
