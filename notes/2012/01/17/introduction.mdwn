@@ -161,7 +161,7 @@ were all based in userspace, and implemented on a wide range of OSes
 employing a bunch of different OS philosophies.
 
 I think a good OS example of a distributed system would be
-[[!wikipedia Plan_9_from_Bell_Labsi desc="Plan 9"]].
+[[!wikipedia Plan_9_from_Bell_Labs desc="Plan 9"]].
 
 Hardware-OS relation
 --------------------
