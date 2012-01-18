@@ -1,0 +1,44 @@
+1. Intro
+2. Overview
+3. Logic Intro
+4. Example 1
+5. Example 2
+6. Administrative
+[[!tag notes/2011]]
+---
+
+Instructor: Phil Barry
+
+##Logic:
+* Systematic
+* Reproduceable
+---
+* Bool algebra
+* Fuzzy Logic
+* Propositions
+* Decisions
+* Reasoning
+
+##Examples:
+* circuit design
+* bit operations
+* bool searches
+
+A system of logic is consisten if there is at least one assignment of
+truth values to the expressions that makes all expressions true.
+
+* #12, p23
+* Truth Trees!
+
+##Cohen-Sutherland
+
+     1100 | 1000 | 1001
+    ------+------+------
+     0100 | 0000 | 0001
+    ------+------+------
+     0110 | 0010 | 0011
+
+if outcode1 = 0000 (and) outcode2 = 0000 then accept
+
+if outcode1 = 0000 bit(or) outcode2 = 0000 then (not) accept
+
