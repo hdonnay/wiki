@@ -1,0 +1,13 @@
+4061 first day
+==============
+[[!tag notes/4061]]
+---
+Info
+----
+Instructor: Abhishek Chandra
+
+ * Office Hours: TBA
+ * Office: KH 4-290
+ * csci4061-help@cs.umn.edu
+
+Textbook: *Unix Systems Programming, 2nd Ed* - Robbins & Robbins
