@@ -1,0 +1,4 @@
+[[!meta title="pages tagged 1272"]]
+
+[[!inline pages="tagged(notes/1272)" actions="no" archive="yes"
+feedshow=10]]
