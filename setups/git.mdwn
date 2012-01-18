@@ -34,6 +34,12 @@ This allows for user repositories to be exposed via gitweb with out cluttering t
  * [gitweb](http://git.hdonnay.net)
  * [user gitweb](http://git.hdonnay.net/usr)
 
+##The main repo page has since changed to cgit.
+
+Will write this up when I get a chance.
+
+The main reasons were speed and prettier urls.
+
 git-daemon
 ----------
 git-daemon was installed via apt:
