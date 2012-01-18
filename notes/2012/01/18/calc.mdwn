@@ -5,4 +5,4 @@
 
 ##Integration examples
 
-Find \\(\int \\! x \\! \cos x \\! dx\\):
+Find \\(\int \\! x \\! \cos x \, \mathrm{d} x\\):
