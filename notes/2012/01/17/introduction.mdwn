@@ -11,3 +11,167 @@ Instructor: Abhishek Chandra
  * csci4061-help@cs.umn.edu
 
 Textbook: *Unix Systems Programming, 2nd Ed* - Robbins & Robbins
+
+Requirements
+------------
+
+ * Readings
+ * 5 Programming assignments (50%)
+  * Teams of 2
+  * 2 weeks each
+ * Exams (50%)
+  * 2 mid-terms
+  * Final
+
+Assignments
+-----------
+
+ * Written in C
+ * documentation
+ * Provide code, headers, makefiles, tests, README
+ * No re-using code
+ * No sharing code
+
+###Grading:
+
+ * Working & correctness
+ * readibility & docs
+ * successful test cases
+
+Exams
+-----
+
+ * Mid-terms are in class
+ * Final is 2 hrs, comprehensive
+
+**Open notes, open book**
+
+Objectives
+----------
+
+ * OS concepts
+ * "programmer's view" of OSes
+ * OS interfaces and services
+ * emphasis on systems programming
+ * Concepts will be applicable to non-unix OSes
+  * Processes, File systems, etc.
+ * Should be able to:
+  * understand OS structure, interface, and utils
+  * write good programs
+  * understand OS API, tools, libs
+  * understand tradeoffs
+  * write better programs/systems
+
+Non-Objectives
+--------------
+
+Teaching:
+
+ * C
+ * OS internals
+ * UNIX tools
+
+Class does not cover:
+
+ * kernel hacking
+ * using UNIX
+
+Pre-Reqs
+--------
+
+ * 2021
+ * UNIX environment familiarity
+ * Programmings skillz
+ * understanding of data structures & algorithms
+
+Basics
+======
+---
+What is an OS?
+--------------
+
+    +--------------------------------------+
+    |              userland                | Application Layer
+    |                                      |
+    +--------------------------------------+
+    |  processes, file system, virutal     | OS
+    |  memory, threads, sockets            |
+    +--------------------------------------+
+    |  CPU, Memory, Disk, busses, etc.     | Hardware
+    |                                      |
+    +--------------------------------------+
+
+###User's View
+
+ * Extended Machine
+ * Abstraction of Hardware resources
+
+OS should be simple and easy to use, but this comes at the price of
+lesser performance.
+
+###Programmer's View
+
+ * Resource Manager
+ * Should do efficient division on resources
+ * act as an arbiter
+
+The OS should maximize performance.
+
+###System View
+
+ * OS is just a control program
+ * Handles HW events, input, etc.
+ * Handles concurrent and async event gracefully
+
+The OS should maximize correctness and fairness.
+
+OS Evolution
+------------
+
+###G1: Mono programming
+
+ * Direct Programming of hardware
+
+###G2: Mainframes
+
+ * Punch cards!
+ * the OS essentially only batches jobs
+
+###G3: Multi-User
+
+ * Execute programs in parallel
+ * Time sharing
+ * OS does resource management and control
+ * MULTICS and UNIX
+
+###G4: PCs
+
+ * Targeted for ease-of-use and GUIs
+ * Ex: DOS, Windows, MacOS, Linux, BSD
+
+###G5: Distributed Systems
+
+ * Interconnected devices
+ * Internet/cloud-based computing
+
+####Note
+
+I'm going to have to disagree with the instructor here. His examples
+were all based in userspace, and implemented on a wide range of OSes
+employing a bunch of different OS philosophies.
+
+I think a good OS example of a distributed system would be [[!wiki
+Plan_9_from_Bell_Labsi desc="Plan 9"]].
+
+Hardware-OS relation
+--------------------
+
+ * Provide hardware absrtactions
+  * processes, files, virtual memory, etc.
+
+OS-Application relation
+-----------------------
+
+ * Provide UIs, libs
+ * System calls
+ * Signals
