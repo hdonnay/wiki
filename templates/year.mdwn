@@ -1,5 +1,0 @@
-Month
-----
----
-[[!map pages="<TMPL_VAR name>/* and ! <TMPL_VAR name>/*/*"]]
-[[!edittemplate silent=yes template="month" match="<TMPL_VAR name>/*"]]

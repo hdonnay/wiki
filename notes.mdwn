@@ -6,4 +6,3 @@ Year
 ----
 ---
 [[!map pages="notes/* and ! notes/*/*"]]
-[[!edittemplate silent=yes template="year" match="notes/*"]]
