@@ -4,7 +4,10 @@
 [[!tag notes/1272]]
 
 ##Math Test
+Note: backslashes need to be escaped in the markdown.
 
 \begin{aligned}
-\dot{x} & = \sigma(y-x) \\ \dot{y} & = \rho x - y - xz \\ \dot{z} & = -\beta z + xy
+\dot{x} & = \sigma(y-x) \\\\
+\dot{y} & = \rho x - y - xz \\\\
+\dot{z} & = -\beta z + xy
 \end{aligned}
