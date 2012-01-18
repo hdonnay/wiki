@@ -1,4 +1,4 @@
-[[!toc levels=2 startlevel=2]]
+[[!toc levels=1 startlevel=2]]
 
 Windows
 -------
