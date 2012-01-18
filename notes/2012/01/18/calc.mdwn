@@ -1,0 +1,9 @@
+#Integration by parts
+
+[[!toc startlevel=2]]
+[[!tag notes/1272]]
+[[!template math]]
+
+##Math Test
+
+\LaTeX
