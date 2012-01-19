@@ -70,7 +70,7 @@ u=t^2 \qquad dv=e^{-t}\ dt\\
 du=2t\ dt \qquad v=-e^{-t}\\
 \\
 \begin{align}
--t^2e^{-t} + &2\int\! te^{-t}\ dt\\
+-t^2e^{-t} + &underbrace{2\int\! te^{-t}\ dt}\\
 &\begin{gather}
 u=t \qquad dv=e^{-t}\\
 du=dt \qquad v=e^{-t}\\
@@ -99,7 +99,7 @@ du={1 \over r}\ dr \qquad v={r^4 \over 4}\\
 \begin{align}
 {r^4 \over 4} (\ln r) &- \int_1^3 {r^3 \over 4}\ dr\\
 \\
-{r^4 \ln r \over 4} &- \right.\frac{r^4}{16}\left\vert_1^3\\
+{r^4 \ln r \over 4} &- \left.\frac{r^4}{16}\right\vert_1^3\\
 &- ({81 \over 16} - {1 \over 16})\\
 &- 5\\
 \end{align}
@@ -117,19 +117,19 @@ $$
     u=e^x \qquad du=\sin x\\
     du=e^x\ dx \qquad v=-\cos x\\
     \\
-    \begin{aligned}
+    \begin{align}
         -e^x\cos x &+ \underbrace{\int\cos e^x\ dx}\\
-        \begin{align}
+        \begin{gather}
             u=e^x \qquad dv=\cos x\\
             su=e^x\ dx \qquad v=\sin x\\
             \\
             e^x\sin x - \int e^x\sin x\ dx\\
-        \end{align}
+        \end{gather}
         \\
         \int e^x\sin x = -e^x\cos x &+ e^x\sin x - \int e^x\sin x\ dx\\
         2\int e^x\sin x = -e^x\cos x &+ e^x\sin x\\
         \int e^x\sin x = {-e^x \over 2}\cos x &+ {e^x \over 2}\sin x\\
-    \end{aligned}
+    \end{align}
     \\
     \boxed{{-e^x \over 2}\left(-\cos x + \sin x\right) + C}
 \end{gather}
