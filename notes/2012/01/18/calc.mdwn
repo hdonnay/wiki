@@ -99,11 +99,37 @@ du={1 \over r}\ dr \qquad v={r^4 \over 4}\\
 \begin{align}
 {r^4 \over 4} (\ln r) &- \int_1^3 {r^3 \over 4}\ dr\\
 \\
-{r^4 \ln r \over 4} &- {r^4 \over 16}|_1^3\\
+{r^4 \ln r \over 4} &- {r^4 \over 16}\vert_1^3\\
 &- ({81 \over 16} - {1 \over 16})\\
 &- 5\\
 \end{align}
 \\
 \boxed{ {r^4 \ln r \over 4} - 5}
+\end{gather}
+$$
+
+- - -
+
+Find  $\int e^x \ \sin x\ dx$
+
+$$
+\begin{gather}
+u=e^x \qquad du=\sin x\\
+du=e^x\ dx \qquad v=-\cos x\\
+\\
+\begin{align}
+-e^x\cos x &+ \int\cos e^x\ dx\\
+\hspace{1 in}\begin{gather}
+u=e^x \qquad dv=\cos x\\
+su=e^x\ dx \qquad v=\sin x\\
+\\
+e^x\sin x - \int e^x\sin x\ dx\\
+\end{gather}
+\int e^x\sin x = -e^x\cos x &+ e^x\sin x - \int e^x\sin x\ dx\\
+2\int e^x\sin x = -e^x\cos x &+ e^x\sin x\\
+\int e^x\sin x = {-e^x \over 2}\cos x &+ {e^x \over 2}\sin x\\
+\end{align}
+\\
+\boxed{-e^x \over 2}(-\cos x + \sin x) + C}
 \end{gather}
 $$
