@@ -142,13 +142,13 @@ $$
 Don't panic, substitute.
 
 $$
-\begin{array}
-    \mathsf{Let} x = \sqrt{x}, & dz=\frac{1}{2\sqrt{x}}\ dx\\
-                               & dx=2\sqrt{x}\ dz\\
-                               & dx=2z\ dz\\
-\end{array}
-\\
 \begin{gather}
+    \begin{array}
+        \mathsf{Let} x = \sqrt{x}, & dz=\frac{1}{2\sqrt{x}}\ dx\\
+                                   & dx=2\sqrt{x}\ dz\\
+                                   & dx=2z\ dz\\
+    \end{array}
+    \\
     \int\cos\sqrt{x}\ dx = 2\left(\int z\cos z\ dz\right)\\
     \\
     u=z \qquad dv=\cos z\ dz\\
@@ -170,9 +170,11 @@ $$
 ###Find
 
 $$
+\begin{gather}
 y=e^{-x}\\
 Bounded by y=0, x=-1, x=0\\
 Rotated around x=1\\
+\end{gather}
 $$
 
 The stupid equation:  $\int 2\pi rh$
