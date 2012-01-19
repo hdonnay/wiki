@@ -147,6 +147,7 @@ $$
                                & dx=2\sqrt{x}\ dz\\
                                & dx=2z\ dz\\
 \end{array}
+\\
 \begin{gather}
     \int\cos\sqrt{x}\ dx = 2\left(\int z\cos z\ dz\right)\\
     \\
@@ -166,7 +167,13 @@ $$
 
 ##Cylindrical shells
 
-###Find  $$y=e^{-x}\\Bounded by y=0, x=-1, x=0\\Rotated around x=1$$
+###Find
+
+$$
+y=e^{-x}\\
+Bounded by y=0, x=-1, x=0\\
+Rotated around x=1\\
+$$
 
 The stupid equation:  $\int 2\pi rh$
 
