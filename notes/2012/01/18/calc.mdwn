@@ -143,9 +143,9 @@ Don't panic, substitute.
 
 $$
 \begin{array}
-    \mathsf{Let} x = \sqrt{x}, & dz=\frac{1}{2\sqrt{x}}\ dx
-                               & dx=2\sqrt{x}\ dz
-                               & dx=2z\ dz
+    \mathsf{Let} x = \sqrt{x}, & dz=\frac{1}{2\sqrt{x}}\ dx\\
+                               & dx=2\sqrt{x}\ dz\\
+                               & dx=2z\ dz\\
 \end{array}
 \begin{gather}
     \int\cos\sqrt{x}\ dx = 2\left(\int z\cos z\ dz\right)\\
@@ -166,13 +166,14 @@ $$
 
 ##Cylindrical shells
 
-###Find  $y=e^{-x}\\Bounded by y=0, x=-1, x=0\\Rotated around x=1$
+###Find  $$y=e^{-x}\\Bounded by y=0, x=-1, x=0\\Rotated around x=1$$
 
 The stupid equation:  $\int 2\pi rh$
 
 $$
 \begin{gather}
     \int_{-1}^0 2\pi\left(1-x\right)e^{-e}\\
+    \\
     2\pi\left(\int_{-1}^0 e^{-x} -\int_{-1}^0 xe^{-x}\right)\\
 \end{gather}
 $$
