@@ -89,14 +89,14 @@ $$
 
 - - -
 
-Find $\int_1^3 r^3 \lnr\ dr$:
+Find $\int_1^3 r^3 \ln r\ dr$:
 
 $$
 \begin{gather}
-u=\lnr \qquad dv=r^3dr\\
-du={1\overr}\ dr \qquad v={r^4\over4}\\
+u=\ln r \qquad dv=r^3\ dr\\
+du={1\over r}\ dr \qquad v={r^4\over 4}\\
 \\
-{r^4\over4}(\lnr)-\int_1^3 {r^3\over4}\ dr\\
-[r^4\lnr\over4}-
+{r^4\over 4}(\ln r)-\int_1^3 {r^3\over 4}\ dr\\
+[r^4\ln r\over 4}-
 \end{gather}
 $$
