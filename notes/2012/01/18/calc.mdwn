@@ -119,17 +119,18 @@ du=e^x\ dx \qquad v=-\cos x\\
 \\
 \begin{align}
 -e^x\cos x &+ \int\cos e^x\ dx\\
-\hspace{1 in}\begin{gather}
+\begin{gather}
 u=e^x \qquad dv=\cos x\\
 su=e^x\ dx \qquad v=\sin x\\
 \\
 e^x\sin x - \int e^x\sin x\ dx\\
 \end{gather}
+\\
 \int e^x\sin x = -e^x\cos x &+ e^x\sin x - \int e^x\sin x\ dx\\
 2\int e^x\sin x = -e^x\cos x &+ e^x\sin x\\
 \int e^x\sin x = {-e^x \over 2}\cos x &+ {e^x \over 2}\sin x\\
 \end{align}
 \\
-\boxed{-e^x \over 2}(-\cos x + \sin x) + C}
+\boxed{{-e^x \over 2}(-\cos x + \sin x) + C}
 \end{gather}
 $$
