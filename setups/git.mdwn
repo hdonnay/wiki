@@ -1,7 +1,7 @@
 [[!toc startlevel=2]]
 
-gitolite
---------
+##gitolite
+***
 gitolite was installed via apt:
 
     % sudo aptitude install gitolite
@@ -22,8 +22,8 @@ parallel.
 
 User repositories are allowed under `usr/$name`.
 
-gitweb
-------
+##gitweb
+***
 gitweb was installed via apt:
 
     % sudo aptitude install gitweb
@@ -42,8 +42,8 @@ Will write this up when I get a chance.
 
 The main reasons were speed and prettier urls.
 
-git-daemon
-----------
+##git-daemon
+***
 git-daemon was installed via apt:
 
     % sudo aptitude install git-daemon-run
@@ -61,8 +61,8 @@ The stupid runsrv config file didn't work by default. Here's what it ended up be
     exec chpst -ugitdaemon:gitolite \
       "$(git --exec-path)"/git-daemon --verbose --reuseaddr --base-path=/var/lib/gitolite/repositories
 
-http export
------------
+##http export
+***
 Handled with this config stanza:
 
     Alias /clone /var/lib/gitolite/repositories
