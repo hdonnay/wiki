@@ -1,5 +1,5 @@
 #Integration by parts
-
+[[!template id=math.tmpl]]
 [[!toc startlevel=2]]
 [[!tag notes/1272]]
 
@@ -10,10 +10,10 @@ $$
 $$
 
 ##Integration examples
-
+- - -
 Find $\int \! x \! \cos x \, \mathrm{d} x$ :
 
-*Bad example:*
+###Bad example:
 
 $$
 \begin{gather}
@@ -27,9 +27,8 @@ $$
 Worse than the initial problem, we now have a fraction and an exponent
 in the integral.
 
-- - -
 
-*Good example:*
+###Good example:
 
 $$
 \begin{gather}
@@ -43,9 +42,9 @@ $$
 
 No Integral!
 
-- - - 
-
+- - -
 Find $\int\! \ln x \ dx$:
+
 $$
 \begin{gather}
 u = \ln x         \qquad dv = dx\\
@@ -54,8 +53,33 @@ du = { 1 \over x} \qquad v=x\\
 \begin{aligned}
 x\ln x &- \int\! x ({1 \over x})\ dx\\
 &- \int\! 1\ dx\\
-\end{aligned}
-\\
+\end{aligned}\\
 \boxed{x\ \ln x - x + C}
 \end{gather}
 $$
+
+- - -
+Find $\int\!t^2e^{-t}\ dt$:
+
+$$
+\begin{gather}
+u=t^2 \qquad dv=e^{-t}\ dt\\
+du=2t\ dt \qquad v=-e^{-t}\\
+\\
+\begin{align}
+-t^2e^{-t} + &2\int\! te^{-t}\ dt\\
+&\begin{gather}
+u=t \qquad dv=e^{-t}\\
+du=dt \qquad v=e^{-t}\\
+\end{gather}
+\\
+&-te^{-t}+\int\!e^{-t}\\
+&-te^{-t}-e^{-t}\\
+\\
+-t^2e^{-t} + &2(-te^{-t}-e^{-t})\\
+-t^2e^{-t} + &-2te^{-t}-2e^{-t}\\
+\end{align}
+\boxed{e^{-t}(-t^2-2t-2)+C}
+\end{gather}
+$$
+
