@@ -6,7 +6,7 @@
 6. Administrative
 
 [[!tag notes/2011]]
----
+***
 
 Instructor: Phil Barry
 
@@ -35,11 +35,13 @@ truth values to the expressions that makes all expressions true.
 ##Cohen-Sutherland
 ***
 
-     1100 | 1000 | 1001
-    ------+------+------
-     0100 | 0000 | 0001
-    ------+------+------
-     0110 | 0010 | 0011
++----+----+----+
+|1100|1000|1001|
++----+----+----+
+|0100|0000|0001|
++----+----+----+
+|0110|0010|0011|
++----+----+----+
 
 if outcode1 = 0000 $\land$ outcode2 = 0000 then accept
 
