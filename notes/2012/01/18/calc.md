@@ -17,10 +17,9 @@ Find $\int \! x \! \cos x \, \mathrm{d} x$ :
 
 $$
 \begin{aligned}
-\boxed{
-u = \cos x        \qquad  dv = x \ dx \\
-du = -\sin x \ dx \qquad  v = {x^2 \over 2}\\
-}\\
+\boxed{u = \cos x        \qquad  dv = x \ dx \\
+du = -\sin x \ dx \qquad  v = {x^2 \over 2}\\}
+\\
 {x^2 \over 2} \cos x + \int\! \sin x {x^2 \over 2} \ dx
 \end{aligned}
 $$
@@ -34,10 +33,9 @@ in the integral.
 
 $$
 \begin{aligned}
-\boxed{
-u = x   \qquad v = \cos x \ dx \\
-du = dx \qquad v = \sin x \\
-}\\
+\boxed{u = x   \qquad v = \cos x \ dx \\
+du = dx \qquad v = \sin x \\}
+\\
 x \sin x - \int\! \sin x \ dx\\
 \boxed{x\sin x + \cos x + C}
 \end{aligned}
