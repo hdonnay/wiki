@@ -5,8 +5,8 @@
 
 ##Integration examples
 
-Find [[!format txt """
-(\int \\! x \\! \cos x \, \mathrm{d} x)
+Find [[!format html """
+\\(\int \\! x \\! \cos x \\, \mathrm{d} x\\)
 """]]:
 
 \begin{aligned}
@@ -16,3 +16,4 @@ u = \cos x \qquad \mathrm{d}v = x \\!\mathrm{d}x \\\\
 {x^2 \over 2}
 \end{aligned}
 
+[[!listdirectives generate]]
