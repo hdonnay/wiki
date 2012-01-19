@@ -11,11 +11,9 @@
 Instructor: Phil Barry
 
 ##Logic:
+***
 * Systematic
 * Reproduceable
-
----
-
 * Bool algebra
 * Fuzzy Logic
 * Propositions
@@ -23,6 +21,7 @@ Instructor: Phil Barry
 * Reasoning
 
 ##Examples:
+***
 * circuit design
 * bit operations
 * bool searches
@@ -34,6 +33,7 @@ truth values to the expressions that makes all expressions true.
 * Truth Trees!
 
 ##Cohen-Sutherland
+***
 
      1100 | 1000 | 1001
     ------+------+------
