@@ -70,14 +70,14 @@ u=t^2 \qquad dv=e^{-t}\ dt\\
 du=2t\ dt \qquad v=-e^{-t}\\
 \\
 \begin{align}
--t^2e^{-t} + &underbrace{2\int\! te^{-t}\ dt}\\
+-t^2e^{-t} + &2\underbrace{\int\! te^{-t}\ dt}\\
 &\begin{gather}
 u=t \qquad dv=e^{-t}\\
 du=dt \qquad v=e^{-t}\\
 \end{gather}
 \\
 &-te^{-t}+\int\!e^{-t}\\
-&\boxed{-te^{-t}-e^{-t}}\\
+&\underbrace{\boxed{-te^{-t}-e^{-t}}}\\
 \\
 -t^2e^{-t} + &2(-te^{-t}-e^{-t})\\
 -t^2e^{-t} + &-2te^{-t}-2e^{-t}\\
@@ -110,7 +110,7 @@ $$
 
 - - -
 
-###Find  $\int e^x \ \sin x\ dx$
+###Find  $\int e^x \ \sin x\ dx$:
 
 $$
 \begin{gather}
@@ -118,13 +118,13 @@ $$
     du=e^x\ dx \qquad v=-\cos x\\
     \\
     \begin{align}
-        -e^x\cos x &+ \underbrace{\int\cos e^x\ dx}\\
-        \begin{gather}
+        -e^x\cos x + &\underbrace{\int\cos e^x\ dx}\\
+        &\begin{gather}
             u=e^x \qquad dv=\cos x\\
             su=e^x\ dx \qquad v=\sin x\\
-            \\
-            e^x\sin x - \int e^x\sin x\ dx\\
         \end{gather}
+        \\
+        &\underbrace{\boxed{ e^x\sin x - \int e^x\sin x\ dx }}\\
         \\
         \int e^x\sin x = -e^x\cos x &+ e^x\sin x - \int e^x\sin x\ dx\\
         2\int e^x\sin x = -e^x\cos x &+ e^x\sin x\\
