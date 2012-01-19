@@ -43,3 +43,8 @@ the 'math' settings were set in `wiki.setup`.
 ##MathJax
 ***
 [MathJax](http://www.mathjax.org/) is used to render $\LaTeX$ and $\TeX$ as needed, and was set up according to [this](https://raw.github.com/hdonnay/pandoc-iki/master/README). 
+
+##todo
+***
+1. add some css to make tables real purdy
+2. get used to pandoc's markup, or turn on `--strict`
