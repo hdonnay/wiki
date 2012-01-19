@@ -93,10 +93,10 @@ Find $\int_1^3 r^3 \ln r\ dr$:
 
 $$
 \begin{gather}
-u=\ln r \qquad dv=r^3\ dr\\
-du={1\over r}\ dr \qquad v={r^4\over 4}\\
+u=\ln r \qquad dv=r^3 \ dr\\
+du={1 \over r}\ dr \qquad v={r^4 \over 4}\\
 \\
-{r^4\over 4}(\ln r)-\int_1^3 {r^3\over 4}\ dr\\
-[r^4\ln r\over 4}-
+{r^4 \over 4} (\ln r) - \int_1^3 {r^3 \over 4}\ dr\\
+{r^4 \ln r \over 4}\\
 \end{gather}
 $$
