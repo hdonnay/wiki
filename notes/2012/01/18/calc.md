@@ -96,7 +96,14 @@ $$
 u=\ln r \qquad dv=r^3 \ dr\\
 du={1 \over r}\ dr \qquad v={r^4 \over 4}\\
 \\
-{r^4 \over 4} (\ln r) - \int_1^3 {r^3 \over 4}\ dr\\
-{r^4 \ln r \over 4} - {r^4 \over 16}\vert_1^3\\
+\begin{align}
+{r^4 \over 4} (\ln r) &- \int_1^3 {r^3 \over 4}\ dr\\
+\\
+{r^4 \ln r \over 4} &- {r^4 \over 16}|_1^3\\
+&- ({81 \over 16} - {1 \over 16})\\
+&- 5\\
+\end{align}
+\\
+\boxed{ {r^4 \ln r \over 4} - 5}
 \end{gather}
 $$
