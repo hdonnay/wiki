@@ -87,3 +87,16 @@ du=dt \qquad v=e^{-t}\\
 \end{gather}
 $$
 
+- - -
+
+Find $\int_1^3 r^3 \lnr\ dr$:
+
+$$
+\begin{gather}
+u=\lnr \qquad dv=r^3dr\\
+du={1\overr}\ dr \qquad v={r^4\over4}\\
+\\
+{r^4\over4}(\lnr)-\int_1^3 {r^3\over4}\ dr\\
+[r^4\lnr\over4}-
+\end{gather}
+$$
