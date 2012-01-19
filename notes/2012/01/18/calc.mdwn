@@ -5,9 +5,7 @@
 
 ##Integration examples
 
-Find [[!format html """
-\\(\int \\! x \\! \cos x \\, \mathrm{d} x\\)
-"""]]:
+Find [[!inline raw="yes" pages="calc/eq01"]]:
 
 \begin{aligned}
 u = \cos x \qquad \mathrm{d}v = x \\!\mathrm{d}x \\\\
