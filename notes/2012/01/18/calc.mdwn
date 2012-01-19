@@ -99,7 +99,7 @@ du={1 \over r}\ dr \qquad v={r^4 \over 4}\\
 \begin{align}
 {r^4 \over 4} (\ln r) &- \int_1^3 {r^3 \over 4}\ dr\\
 \\
-{r^4 \ln r \over 4} &- \right.{r^4 \over 16}\left\vert_1^3\\
+{r^4 \ln r \over 4} &- \right.\frac{r^4}{16}\left\vert_1^3\\
 &- ({81 \over 16} - {1 \over 16})\\
 &- 5\\
 \end{align}
