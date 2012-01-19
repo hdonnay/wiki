@@ -3,9 +3,8 @@ Modifications to seraph:
 
 [[!toc startlevel=2 ]]
 
-Haskell
--------
-- - -
+##Haskell
+***
 
 Installed ghc-7.0.4 and haskell-platform-2001.4.0.0.
 
@@ -14,9 +13,8 @@ globally.
 
 pandoc is also installed for some vim scripts.
 
-Newsbeuter
-----------
-- - -
+##Newsbeuter
+***
 
 Installed newsbeuter-2.4 from source.
 
