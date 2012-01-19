@@ -5,7 +5,7 @@
 
 ##Integration examples
 
-Find [[!inline raw="yes" pages="./calc/eq01"]]:
+Find [[!inline pages="./calc/eq01.mdwn"]]:
 
 \begin{aligned}
 u = \cos x \qquad \mathrm{d}v = x \\!\mathrm{d}x \\\\
