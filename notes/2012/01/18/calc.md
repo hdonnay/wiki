@@ -21,6 +21,8 @@ $$
 Worse than the initial problem, we now have a fraction and an exponent
 in the integral.
 
+- - -
+
 *Good example:*
 
 $$
@@ -32,3 +34,9 @@ x \sin x - \int\! \sin x \mathrm{d}x\\
 \boxed{x\sin x + \cos x + C}
 \end{aligned}
 $$
+
+No Integral!
+
+- - - 
+
+Find $\int\! \ln x \ dx$:
