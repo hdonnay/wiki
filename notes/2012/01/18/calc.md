@@ -3,6 +3,12 @@
 [[!toc startlevel=2]]
 [[!tag notes/1272]]
 
+##General form
+
+$$
+\int\!u\ dv = uv - \int\!v\ du
+$$
+
 ##Integration examples
 
 Find $\int \! x \! \cos x \, \mathrm{d} x$ :
@@ -11,10 +17,11 @@ Find $\int \! x \! \cos x \, \mathrm{d} x$ :
 
 $$
 \begin{aligned}
-u = \cos x \qquad  \mathrm{d}v = x \!\mathrm{d}x \\
-\mathrm{d}u = -\sin x \!\mathrm{d}x \qquad  v = {x^2 \over 2}\\
-\\
-{x^2 \over 2} \cos x + \int\! \sin x {x^2 \over 2} \mathrm{d}x
+\boxed{
+u = \cos x        \qquad  dv = x \ dx \\
+du = -\sin x \ dx \qquad  v = {x^2 \over 2}\\
+}\\
+{x^2 \over 2} \cos x + \int\! \sin x {x^2 \over 2} \ dx
 \end{aligned}
 $$
 
@@ -27,10 +34,11 @@ in the integral.
 
 $$
 \begin{aligned}
-u = x \qquad \mathrm{d}v = \cos x \!\mathrm{d}x \\
-\mathrm{d}u = \mathrm{d}x \qquad v = \sin x \\
-\\
-x \sin x - \int\! \sin x \mathrm{d}x\\
+\boxed{
+u = x   \qquad v = \cos x \ dx \\
+du = dx \qquad v = \sin x \\
+}\\
+x \sin x - \int\! \sin x \ dx\\
 \boxed{x\sin x + \cos x + C}
 \end{aligned}
 $$
@@ -40,3 +48,9 @@ No Integral!
 - - - 
 
 Find $\int\! \ln x \ dx$:
+$$
+\begin{aligned}
+\boxed{
+u = \ln x         \qquad dv = dx\\
+du = { 1 \over x} \qquad v=x\\
+}\\
