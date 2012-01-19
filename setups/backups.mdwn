@@ -1,13 +1,15 @@
 [[!toc startlevel=2]]
 
-Windows
--------
-- - -
+##Windows
+
+---
+
 Windows is backed up with the build-in backup tool, to `KURO\\backups\windows`.
 
-Linux
------
-- - -
+##Linux
+
+---
+
 Linux installs are backed up by rsnapshot on kuro.
 
 To use, copy `/backups/backup.pub` into `/root/.ssh/authorized_keys` on a new machine, and then add a stanza to `/etc/rsnapshot.conf` like this:
@@ -17,9 +19,10 @@ To use, copy `/backups/backup.pub` into `/root/.ssh/authorized_keys` on a new ma
     backup root@ao:/etc/ ao/
     backup root@ao:/usr/local/ ao/
 
-OSX
+##OSX
+
 ---
-- - -
+
 Not currently backed up
 
  * **TODO:** put midori under rsnapshot backup
