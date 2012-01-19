@@ -14,7 +14,7 @@ $$
 
 ###Find $\int \! x \! \cos x \, \mathrm{d} x$ :
 
-###Bad example:
+####Bad example:
 
 $$
 \begin{gather}
@@ -29,7 +29,7 @@ Worse than the initial problem, we now have a fraction and an exponent
 in the integral.
 
 
-###Good example:
+####Good example:
 
 $$
 \begin{gather}
@@ -114,7 +114,7 @@ $$
 
 $$
 \begin{gather}
-    u=e^x \qquad du=\sin x\\
+    u=e^x \qquad dv=\sin x\\
     du=e^x\ dx \qquad v=-\cos x\\
     \\
     \begin{align}
@@ -142,5 +142,37 @@ $$
 Don't panic, substitute.
 
 $$
-Let
+\begin{array}
+    \mathsf{Let} x = \sqrt{x}, & dz=\frac{1}{2\sqrt{x}}\ dx
+                               & dx=2\sqrt{x}\ dz
+                               & dx=2z\ dz
+\end{array}
+\begin{gather}
+    \int\cos\sqrt{x}\ dx = 2\left(\int z\cos z\ dz\right)\\
+    \\
+    u=z \qquad dv=\cos z\ dz\\
+    du=dz \qquad v=\sin z\\
+    \\
+    \begin{align}
+        z\sin z &- \int\sin z\ dz\\
+        z\sin z &+ \cos z\\
+    \end{align}
+    \\
+    \boxed{2\sqrt{x}\sin\sqrt{x}+2\cos\sqrt{x}+C}
+\end{gather}
+$$
+
+- - -
+
+##Cylindrical shells
+
+###Find  $y=e^{-x}\\Bounded by y=0, x=-1, x=0\\Rotated around x=1$
+
+The stupid equation:  $\int 2\pi rh$
+
+$$
+\begin{gather}
+    \int_{-1}^0 2\pi\left(1-x\right)e^{-e}\\
+    2\pi\left(\int_{-1}^0 e^{-x} -\int_{-1}^0 xe^{-x}\right)\\
+\end{gather}
 $$
