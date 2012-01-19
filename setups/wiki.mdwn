@@ -35,6 +35,8 @@ or
 
 because pandoc parses that into a table.
 
+The first style also only works once per page, for some reason.
+
 The .pm was installed into `/usr/local/lib/site_perl/Ikiwiki/Plugins/`. It kept bitching when trying to render until
 the 'math' settings were set in `wiki.setup`.
 
