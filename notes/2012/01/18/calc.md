@@ -97,6 +97,6 @@ u=\ln r \qquad dv=r^3 \ dr\\
 du={1 \over r}\ dr \qquad v={r^4 \over 4}\\
 \\
 {r^4 \over 4} (\ln r) - \int_1^3 {r^3 \over 4}\ dr\\
-{r^4 \ln r \over 4}\\
+{r^4 \ln r \over 4} - {r^4 \over 16}\vert_1^3\\
 \end{gather}
 $$
