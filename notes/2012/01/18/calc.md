@@ -5,7 +5,9 @@
 
 ##Integration examples
 
-Find [[!inline pages="./calc/eq01.mdwn"]]:
+Find
+$\int \! x \! \cos x \, \mathrm{d} x$
+:
 
 \begin{aligned}
 u = \cos x \qquad \mathrm{d}v = x \\!\mathrm{d}x \\\\
@@ -13,6 +15,3 @@ u = \cos x \qquad \mathrm{d}v = x \\!\mathrm{d}x \\\\
 \\\\
 {x^2 \over 2}
 \end{aligned}
-
-[[!listdirectives generate]]
-$\int \! x \! \cos x \, \mathrm{d} x$
