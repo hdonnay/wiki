@@ -13,7 +13,9 @@ Instructor: Phil Barry
 ##Logic:
 * Systematic
 * Reproduceable
-- - -
+
+---
+
 * Bool algebra
 * Fuzzy Logic
 * Propositions

@@ -1,7 +1,9 @@
-Welcome to the wiki.
-========================
+#Welcome to the wiki.
+
 ---
+
 [[!fortune  ]]
+
 ---
 
 Raise some hell.
