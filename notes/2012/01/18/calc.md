@@ -1,5 +1,4 @@
 #Integration by parts
-[[!template id=math.tmpl]]
 [[!toc startlevel=2]]
 [[!tag notes/1272]]
 
@@ -10,7 +9,9 @@ $$
 $$
 
 ##Integration examples
+
 - - -
+
 Find $\int \! x \! \cos x \, \mathrm{d} x$ :
 
 ###Bad example:
@@ -43,6 +44,7 @@ $$
 No Integral!
 
 - - -
+
 Find $\int\! \ln x \ dx$:
 
 $$
@@ -59,6 +61,7 @@ x\ln x &- \int\! x ({1 \over x})\ dx\\
 $$
 
 - - -
+
 Find $\int\!t^2e^{-t}\ dt$:
 
 $$
@@ -74,11 +77,12 @@ du=dt \qquad v=e^{-t}\\
 \end{gather}
 \\
 &-te^{-t}+\int\!e^{-t}\\
-&-te^{-t}-e^{-t}\\
+&\boxed{-te^{-t}-e^{-t}}\\
 \\
 -t^2e^{-t} + &2(-te^{-t}-e^{-t})\\
 -t^2e^{-t} + &-2te^{-t}-2e^{-t}\\
 \end{align}
+\\ \\
 \boxed{e^{-t}(-t^2-2t-2)+C}
 \end{gather}
 $$
