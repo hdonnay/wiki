@@ -1,5 +1,7 @@
-ikiwiki
--------
+[[!toc startlevel=2]]
+
+repository
+----------
 ---
 
 the repository needed to go though gitolite. The remote should be set to something like:
@@ -9,3 +11,33 @@ the repository needed to go though gitolite. The remote should be set to somethi
 rather than
 
     ~/respositories/wiki.git
+
+##Pandoc
+***
+Switched the wiki to render the markdown using Pandoc with [this](https://github.com/hdonnay/pandoc-iki) plugin.
+
+The way to get nice titles I like is now
+
+    title
+    -----
+    ---
+
+or
+
+    ##title
+    ***
+
+**but not**
+
+    title
+    -----
+    - - -
+
+because pandoc parses that into a table.
+
+The .pm was installed into `/usr/local/lib/site_perl/Ikiwiki/Plugins/`. It kept bitching when trying to render until
+the 'math' settings were set in `wiki.setup`.
+
+##MathJax
+***
+[MathJax](http://www.mathjax.org/) is used to render $\LaTeX$ and $\TeX$ as needed, and was set up according to [this](https://raw.github.com/hdonnay/pandoc-iki/master/README). 
