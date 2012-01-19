@@ -39,7 +39,7 @@ truth values to the expressions that makes all expressions true.
     ------+------+------
      0110 | 0010 | 0011
 
-if outcode1 = 0000 (and) outcode2 = 0000 then accept
+if outcode1 = 0000 $\land$ outcode2 = 0000 then accept
 
-if outcode1 = 0000 bit(or) outcode2 = 0000 then (not) accept
+if outcode1 = 0000 $\lor$ outcode2 = 0000 then $\lnot$ accept
 
