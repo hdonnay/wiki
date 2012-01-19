@@ -167,11 +167,9 @@ $$
 
 ##Cylindrical shells
 
-###Find
-
 $$
 \begin{gather}
-\mathsf{$y=e^{-x}$\\ Bounded by  $y=0$, $x=-1$, $x=0$\\ Rotated around $x=1$\\}
+\text{Find $y=e^{-x}$ Bounded by $y=0, x=-1, x=0$ Rotated around $x=1$}
 \end{gather}
 $$
 
