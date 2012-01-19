@@ -12,7 +12,7 @@ $$
 
 - - -
 
-Find $\int \! x \! \cos x \, \mathrm{d} x$ :
+###Find $\int \! x \! \cos x \, \mathrm{d} x$ :
 
 ###Bad example:
 
@@ -45,7 +45,7 @@ No Integral!
 
 - - -
 
-Find $\int\! \ln x \ dx$:
+###Find $\int\! \ln x \ dx$:
 
 $$
 \begin{gather}
@@ -53,7 +53,7 @@ u = \ln x         \qquad dv = dx\\
 du = { 1 \over x} \qquad v=x\\
 \\
 \begin{aligned}
-x\ln x &- \int\! x ({1 \over x})\ dx\\
+x\ln x &- \int\! x \left({1 \over x}\right)\ dx\\
 &- \int\! 1\ dx\\
 \end{aligned}\\
 \boxed{x\ \ln x - x + C}
@@ -62,7 +62,7 @@ $$
 
 - - -
 
-Find $\int\!t^2e^{-t}\ dt$:
+###Find $\int\!t^2e^{-t}\ dt$:
 
 $$
 \begin{gather}
@@ -89,7 +89,7 @@ $$
 
 - - -
 
-Find $\int_1^3 r^3 \ln r\ dr$:
+###Find $\int_1^3 r^3 \ln r\ dr$:
 
 $$
 \begin{gather}
@@ -99,7 +99,7 @@ du={1 \over r}\ dr \qquad v={r^4 \over 4}\\
 \begin{align}
 {r^4 \over 4} (\ln r) &- \int_1^3 {r^3 \over 4}\ dr\\
 \\
-{r^4 \ln r \over 4} &- {r^4 \over 16}\vert_1^3\\
+{r^4 \ln r \over 4} &- \right.{r^4 \over 16}\left\vert_1^3\\
 &- ({81 \over 16} - {1 \over 16})\\
 &- 5\\
 \end{align}
@@ -110,7 +110,7 @@ $$
 
 - - -
 
-Find  $\int e^x \ \sin x\ dx$
+###Find  $\int e^x \ \sin x\ dx$
 
 $$
 \begin{gather}
@@ -118,12 +118,12 @@ $$
     du=e^x\ dx \qquad v=-\cos x\\
     \\
     \begin{aligned}
-        -e^x\cos x &+ \int\cos e^x\ dx\\
+        -e^x\cos x &+ \underbrace{\int\cos e^x\ dx}\\
         \begin{gather}
             u=e^x \qquad dv=\cos x\\
             su=e^x\ dx \qquad v=\sin x\\
             \\
-            e^x\sin x - \underbrace{\int e^x\sin x\ dx}\\
+            e^x\sin x - \int e^x\sin x\ dx\\
         \end{gather}
         \\
         \int e^x\sin x = -e^x\cos x &+ e^x\sin x - \int e^x\sin x\ dx\\
@@ -131,6 +131,16 @@ $$
         \int e^x\sin x = {-e^x \over 2}\cos x &+ {e^x \over 2}\sin x\\
     \end{aligned}
     \\
-    \boxed{{-e^x \over 2}(-\cos x + \sin x) + C}
+    \boxed{{-e^x \over 2}\left(-\cos x + \sin x\right) + C}
 \end{gather}
+$$
+
+- - -
+
+###Find  $\int\cos\sqrt{x}\ dx$
+
+Don't panic, substitute.
+
+$$
+Let
 $$
