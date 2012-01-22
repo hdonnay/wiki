@@ -24,3 +24,15 @@ and installed like so:
     % make
     % sudo make install prefix=/usr
     % sudo ln -s /usr/lib64/libstfl.so.0 /usr/lib/libstfl.so.0.22
+
+##msmtp
+***
+
+msmtp for sending mail was installed from source:
+
+    % git clone git://msmtp.git.sourceforge.net/gitroot/msmtp/msmtp
+    % cd msmtp
+    % autoreconf -i
+    % ./configure; make; sudo make install
+
+It lacks the goodies that GNU SASL provides, but if needed they can be installed.
