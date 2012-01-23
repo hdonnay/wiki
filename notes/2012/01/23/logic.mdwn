@@ -19,17 +19,17 @@ sec. 1.4 - quantifiers
 ----------------------
 ***
 
-* The virus has infected *all* comtupers on the network.
-* The virus has infected *some* comtupers on the network.
-* The virus has infected *a single* comtupers on the network.
-* The virus has *not* infected *any* comtupers on the network.
+* The virus has infected *all* computers on the network.
+* The virus has infected *some* computers on the network.
+* The virus has infected *a single* computers on the network.
+* The virus has *not* infected *any* computers on the network.
 
 Notice the differences.
 
 $P(x)$: The computer 'x' is infected.
 $Q(x)$: x > 5
 $R(x)$: Loop is executed when x > 5
-$S(x,y)$: Loop is executed when x > 5 $\and$ y < $\pi$
+$S(x,y)$: Loop is executed when x > 5 $\land$ y < $\pi$
 
 * Some symbols:
   * $\forall x$ - for all x
@@ -37,9 +37,11 @@ $S(x,y)$: Loop is executed when x > 5 $\and$ y < $\pi$
   * $\exists !x$ - there is an unique x
 
 $$
+\begin{aligned}
 \forall x \quad x^2 \geq 0\\
 \exists x \quad x^3 \geq 0\\
 \exists !x \quad x^2 = 0\\
-\forall x \quar \not (x^2 = i)\\
-Universe: \mathbb{R}
+\forall x \quad \lnot (x^2 = i)\\
+\text{Universe: }\mathbb{R}
+\end{aligned}
 $$
