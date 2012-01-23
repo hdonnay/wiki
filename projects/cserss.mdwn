@@ -1,0 +1,17 @@
+[[!toc startlevel=2]]
+
+CSE RSS feed
+============
+***
+
+The CSE class websites don't have an RSS feed, which makes them hugely
+unusable to anyone that doesn't want to visit their goddamn page
+manually all the fucking time.
+
+What to do
+----------
+***
+
+The pages appear to be valid XHTML, so a possible course of action would
+be to write an xslt for it, then have a perl script retrive the page,
+transform it to RSS compliant XML, then move it to be served by a webserver.
