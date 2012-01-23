@@ -1,0 +1,47 @@
+#mail
+[[!toc startlevel=2]]
+
+##needed utils
+***
+
+* mutt
+* offlineimap
+* msmtp
+* python-keyring
+* the glue scripts in my mutt repo
+
+##mutt
+***
+
+mutt is configured to read messages locally and send them via msmtp.
+
+##offlineimap
+***
+
+offlineimap is configured to fetch mail from the last 60 days and store
+it in subfolders inside `~/.mail`. Passwords are stored/retrieved with
+python-keyring, so as to allow operation without user input. offlineimap
+is run from cron.
+
+##msmtp
+***
+
+msmtp uses the getpw.py script to retrieve passwords.
+
+###getpw.py
+***
+
+It's literally three lines:
+
+    #!/usr/bin/env python
+    import keyring
+    import sys
+
+    print keyring.get_password(sys.argv[1], sys.argv[2])
+
+##python-keyring
+***
+
+This can be installed via pip:
+
+    sudo pip install keyring
