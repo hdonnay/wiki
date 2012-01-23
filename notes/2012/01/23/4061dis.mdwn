@@ -1,0 +1,19 @@
+[[!toc startlevel=2]]
+[[!tag notes/4061]]
+
+linux basics
+------------
+***
+
+They were real basic.
+
+C refresher
+-----------
+***
+
+`typedef` lets you use things as primitives. did not know that.
+
+###linked lists
+***
+
+same shit.
