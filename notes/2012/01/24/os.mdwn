@@ -1,0 +1,50 @@
+[[!toc]]
+[[!tag notes/4061]]
+
+make
+====
+***
+
+Read up on makefiles.
+
+process
+=======
+***
+
+program vs process
+------------------
+
+* Program
+  * passive
+  * set of instructions
+  * binary
+* Process
+  * active
+  * executing path of instructions
+  * live set of resources
+
+What does a process contain?
+----------------------------
+
+* Program text
+* counter
+* data
+* other objects
+  * file descriptors, signals, locks
+  * accounting
+
+process layout
+--------------
+
+    High addr   |  Args, env   |
+                |     stack    |
+                |      ||      |
+                |      \/      |
+                |              |
+                |      /\      |
+                |      ||      |
+                |     Heap     |
+                |      bss     |
+                | Data segment |
+    Low addr    | Progam Text  |
+
