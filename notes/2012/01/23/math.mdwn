@@ -14,7 +14,7 @@ $$
 &= 2\int(1+\cos 2\theta)\ d\theta\\
 &= 2\left[ \theta + \frac{1}{2}\sin (2\theta)\right] + C\\
 \int_{-2}^2 \sqrt{4-x^2}\ dx &= \left. 2\theta + \sin (2\theta)\right|\\
-\text{Finish...}
+\\\text{Finish...}
 \end{aligned}
 $$
 
@@ -22,7 +22,13 @@ $$
 
 $$
 \begin{aligned}
-\frac{x^2}{a^2} + \frac{y^2}{b^2} &= 1\\
+\frac{x^2}{a^2} + \frac{y^2}{b^2} &= \\
 y &= \pm \frac{b}{a}\sqrt{a^2-x^2}\\ \\
+\frac{1}{2}\text{Area } &= \int_{-a}^a \frac{b}{a}\sqrt{a^2-x^2}\ dx = \frac{b}{a}\int_{-a}^{a}a^2\cos^2\theta\ d\theta\\\\
+&\begin{aligned}
+x=a\sin\theta \qquad dx=a\cos\theta\ d\theta\\
+a^2-x^2=a^2\left(1-\sin^2\theta\right)=a^2\cos^2\theta\\
+\end{end}
+&=ab\int\cos^2\theta\ d\theta=\func{ab}{2}\int\left(1+\cos 2\theta\right)\ d\theta\\
 \end{aligned}
 $$
