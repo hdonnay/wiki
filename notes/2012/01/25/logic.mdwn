@@ -1,0 +1,13 @@
+[[!toc levels=3]]
+[[!tag notes/2011]]
+
+$$
+\begin{align}
+\forall\epsilon > \exists k \text{ so that } \forall m \geq k\\
+\end{align}
+$$
+
+$$
+\forall x \forall y \exists z \text{ such that } x=y+z\\
+\text{For all x for all y, there exists a z such that x=y+z.}\\
+$$
