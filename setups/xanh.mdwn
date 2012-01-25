@@ -1,0 +1,7 @@
+xanh
+====
+***
+
+xanh is the tinyvz vm used as an irc bouncer. It's running Debian 6.0.
+
+[[!map pages="setups/xanh/* and ! setups/xanh/*/*"]]
