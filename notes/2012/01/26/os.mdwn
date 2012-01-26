@@ -1,0 +1,57 @@
+[[!toc levels=3]]
+[[!tag notes/4061]]
+
+review
+======
+***
+
+* memory layout
+* stack
+
+context
+-------
+
+Multiprogramming
+----------------
+
+* multiplxes resources
+* process gives up the CPU if:
+  * quantum expires
+  * has to wait for an event
+
+Process states
+--------------
+
+* New: being created
+* running: executing
+* blocked: waiting for event
+* ready: waiting for cpu
+* done: terminated
+
+Process identity
+----------------
+
+###Unix processed
+
+* Parent-child relation
+* init is pid 1
+
+###lifecycle
+
+* created
+* executes
+* exits
+<!---->
+* parent may wait
+
+###Process creation: `fork`
+
+    pid_t fork();
+
+Creates an alomst exact copy of the parent process.
+
+###returning from `fork`
+
+* returns twice, in parent and child.
+* value returned determines parent/child process
+
