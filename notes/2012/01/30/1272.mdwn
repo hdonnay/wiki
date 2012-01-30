@@ -23,7 +23,7 @@ Classify:
  * if a prod of trig funcs, use methods of Sec. 7.2
  * if power func, try Integration by parts
  * for rational functions, do division/partial fractions
- * if $\sqrt{\pmx^2\pma^2}$ try trig subsitution
+ * if $\sqrt{\pm x^2\pm a^2}$ try trig subsitution
 
 Fourth:
 -------
