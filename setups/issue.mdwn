@@ -1,0 +1,9 @@
+[[!toc startlevel=2]]
+
+Issue Tracker
+-------------
+---
+
+[tinyissue]() is installed to http://www.hdonnay.net/issue/
+
+It needs a mysql db and some php magic to work with nginx, which I documented [here](https://github.com/mikelbring/tinyissue/wiki).
