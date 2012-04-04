@@ -1,0 +1,16 @@
+[[!tag notes/2011]]
+
+ 1. Find general solution of the associated linear homogenous recurrence.
+
+ 2. Fine the solutions to the chataceristic equation.
+
+ 3. Solve for particular solution
+
+ 4. Eind overall solution
+
+inclusion/exclusion
+-------------------
+
+$$ A \cup B = A + B - A \cap B $$
+
+$$ A \cup B \cup C = A + B + C $$
