@@ -14,3 +14,15 @@ inclusion/exclusion
 $$ A \cup B = A + B - A \cap B $$
 
 $$ A \cup B \cup C = A + B + C $$
+
+Relations
+=========
+***
+
+A realtion in its most general sense is a subset of $$ A \cross B = { (a,b) | a \forall A, b \forall B } $$
+
+types
+
+ * reflexive
+ * symmetric
+ * transitive

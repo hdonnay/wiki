@@ -8,3 +8,8 @@ I'm looking into using puppet to manage configs across machines. It's
 beating cfengine because, despite being written in ruby and slower, the
 config syntax looks to be significantly better for Puppet. It's also
 used by google and shit, so it can't be too bad.
+
+**Update**
+
+I was wrong. It's real, real bad. The client/server can't talk across
+versions and it's moving too fast to have the same version everywhere.
