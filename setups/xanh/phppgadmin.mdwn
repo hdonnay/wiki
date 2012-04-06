@@ -1,0 +1,30 @@
+[[!toc startlevel=2]]
+phpPgAdmin
+==========
+***
+
+[phpPgAdmin](http://xanh.hdonnay.net/phppgadmin) is set up to make
+administrating PostgreSQL easier. It needed an nginx stanza like so:
+
+        # phppgadmin
+        location /phppgadmin {
+            root /usr/share/;
+            index index.php index.html index.htm;
+            location ~ ^/phppgadmin/(.+\.php)$ {
+                        try_files $uri =404;
+                        root /usr/share/;
+                        fastcgi_pass 127.0.0.1:9000;
+                        fastcgi_index index.php;
+                        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+                        include /etc/nginx/fastcgi_params;
+                        # needed if you want to use https
+                        fastcgi_param HTTPS on;
+                }
+                location ~* ^/phppgadmin/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
+                        root /usr/share/;
+                }
+         }
+         location /phpPgAdmin {
+                rewrite ^/* /phppgadmin last;
+         }
+
