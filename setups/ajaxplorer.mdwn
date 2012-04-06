@@ -1,0 +1,14 @@
+[[!toc startlevel=2]]
+ajaxplorer
+==========
+***
+
+AjaXplorer (php-based file browser) is installed in `/usr/local/share/files`.
+
+The relevant nginx stanza is:
+
+    location /files {
+        include php.conf;
+        index index.php;
+        root /usr/local/share/;
+    }
