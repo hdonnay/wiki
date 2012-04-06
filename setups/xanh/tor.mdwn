@@ -1,0 +1,8 @@
+[[!toc startlevel=2]]
+tor
+===
+***
+
+Set up as a non-exit relay.
+
+The address is http://uxb3vsfzxaoxdt7g.onion
