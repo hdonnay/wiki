@@ -36,30 +36,15 @@ This allows for user repositories to be exposed via gitweb with out cluttering t
  * [gitweb](http://git.hdonnay.net)
  * [user gitweb](http://git.hdonnay.net/usr)
 
-**The main repo page has since changed to cgit.**
-
-Will write this up when I get a chance.
-
-The main reasons were speed and prettier urls.
-
 ##git-daemon
 ***
 git-daemon was installed via apt:
 
-    % sudo aptitude install git-daemon-run
+    % sudo aptitude install git-daemon-sysvinit
 
 Additionally, the following line was added to every repo in gitolite.conf to enable it:
 
     R   =   daemon
-
-The stupid runsrv config file didn't work by default. Here's what it ended up being:
-
-    hank@kuro:~ % sudo cat /etc/sv/git-daemon/run 
-    #!/bin/sh
-    exec 2>&1
-    echo 'git-daemon starting.'
-    exec chpst -ugitdaemon:gitolite \
-      "$(git --exec-path)"/git-daemon --verbose --reuseaddr --base-path=/var/lib/gitolite/repositories
 
 ##http export
 ***
@@ -74,3 +59,5 @@ Handled with this config stanza:
 
 This doesn't allow for "smart" http cloning, but `git-http-backend` was
 being a jackass.
+
+**No longer relevant, need to set up with nginx.**
