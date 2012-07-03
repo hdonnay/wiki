@@ -6,7 +6,7 @@ gitolite was installed via apt:
 
     % sudo aptitude install gitolite
 
-This puts repositories in `/var/lib/gitolite/repositories/` and created a user "gitolite" with the home dir
+This puts repositories in `/var/lib/gitolite/repositories/` and created a user 'gitolite' with the home dir
 of `/var/lib/gitolite`.
 
 Some repos are mirrored out by using a post-receive hook like so:
