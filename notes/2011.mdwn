@@ -1,4 +1,1 @@
-Month
-----
----
 [[!map pages="notes/2011/* and ! notes/2011/*/*"]]

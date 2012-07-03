@@ -1,5 +1,1 @@
-#LISTS FOR DAYS
-
----
-
 [[!map pages="lists/* and ! lists/*/*"]]

@@ -1,7 +1,1 @@
-Here be planning and notes, arrr
-
-These should be reserved for documentation, move issue tracking over to [issue tracker](http://www.hdonnay.net/issue).
-
----
-[[!edittemplate silent=yes template="project" match="projects/*" ]]
-[[!map pages="projects/* and ! projects/*/*" show=title,description]]
+[[!map pages="projects/* and ! projects/*/*"]]
