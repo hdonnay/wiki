@@ -1,5 +1,5 @@
 [[!graph
 type="digraph"
 prog="dot"
-src="266 -> 266 -> 262"
+src="266 -> 266 -> 262 -> 262"
 ]]
