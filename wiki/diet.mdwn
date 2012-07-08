@@ -1,0 +1,1 @@
+[[!map pages="wiki/diet/* and ! wiki/diet/*/*"]]
