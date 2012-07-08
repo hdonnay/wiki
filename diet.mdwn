@@ -1,1 +1,1 @@
-[[!map pages="diet/* and ! diet/*/*"and ! "diet/discussion"]]
+[[!map pages="diet/* and ! diet/*/* and ! diet/discussion"]]
