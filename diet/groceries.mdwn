@@ -1,8 +1,11 @@
-on-hand
+Inventory
 -------
 - - -
- * 6lbs ground beef
- * 2? parted chickens
+ * 4lbs ground beef
+ * frozen fish
+ * frozen chicken breast
+ * package hot dogs
+ * shredded cheese
  * spaghetti noodles
  * Tomato sauce
  * misc spices
@@ -11,19 +14,6 @@ on-hand
  * Frosted Flaskes
  * Assorted beer
 
-to buy
+To Buy
 ------
 - - -
- * milk -- keeps getting drunk
- * Miso Soup
-   * dashi
-   * Tofu
-   * Miso
-   * scallions
- * Kinpara Gobo
-   * Burdock root
-   * Canola oil -- have
-   * soy sauce -- have
-   * sugar -- have
-   * Carrots
-   * Sesame seeds
