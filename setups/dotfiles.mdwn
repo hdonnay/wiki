@@ -1,0 +1,5 @@
+How to do dotfiles
+==================
+* * *
+
+The dotfiles-new repo contains the new way of doing this, via Makefiles.
