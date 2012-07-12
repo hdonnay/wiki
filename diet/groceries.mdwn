@@ -3,17 +3,30 @@ Inventory
 - - -
  * 4lbs ground beef
  * frozen fish
- * frozen chicken breast
+ * frozen chicken breast **low**
  * package hot dogs
  * shredded cheese
- * spaghetti noodles
  * Tomato sauce
  * misc spices
  * garlic
  * 2lbs butter
- * Frosted Flaskes
- * Assorted beer
+ * bacon
+ * cauliflower
+ * block 'o cheese
+ * turkey & salami
+ * lettuce
+
+* * *
+
+ * evil carbs:
+   * Frosted Flakes
+   * Assorted beer
+   * spaghetti noodles
 
 To Buy
 ------
 - - -
+
+ * Zevia
+   * Lund's near work claims to have it
+ * Pork Rinds
