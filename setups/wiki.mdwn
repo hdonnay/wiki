@@ -6,7 +6,7 @@ repository
 
 the repository needed to go though gitolite. The remote should be set to something like:
 
-    gitolite@localhost:wiki.git
+    git@localhost:wiki.git
 
 rather than
 
