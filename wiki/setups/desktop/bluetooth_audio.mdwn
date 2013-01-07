@@ -1,0 +1,6 @@
+Needed to install `pulseaudio-module-bluetooth` and reboot the bluetooth and pulse stacks:
+
+    aptitude install pulseaudio-module-bluetooth
+    for i in bluetooth pulseaudio; do
+        sudo service $i restart
+    done
