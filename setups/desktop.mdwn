@@ -1,0 +1,1 @@
+[[!map pages="setups/desktop/* and ! setups/desktop/*/*"]]
