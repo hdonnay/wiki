@@ -1,0 +1,1 @@
+[[!map pages="wiki/setups/desktop/* and ! wiki/setups/desktop/*/*"]]
